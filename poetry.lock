@@ -39,6 +39,17 @@ django = ">=3.0"
 pytz = "*"
 
 [[package]]
+name = "prettyconf"
+version = "2.2.1"
+description = "Separation of settings from code."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+aws = ["boto3"]
+
+[[package]]
 name = "pytz"
 version = "2022.2.1"
 description = "World timezone definitions, modern and historical"
@@ -65,7 +76,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "f316948dcee52109712e91fd12632fe049a5f6afac45eeaaa60dc2ba6a744c09"
+content-hash = "b00639acfc6f1196334f486425d7bf8282410c532ca29380fd6b0f4b3cae5181"
 
 [metadata.files]
 asgiref = [
@@ -74,6 +85,7 @@ asgiref = [
 ]
 django = []
 djangorestframework = []
+prettyconf = []
 pytz = []
 sqlparse = []
 tzdata = []
